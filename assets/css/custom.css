@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Pridi');
+
+.page-title h1{
+  font-family: 'Pridi', serif;
+  font-size: 1.5em!important;
+}
+
+@media (max-width: 576px) {
+    .navbar-brand{
+      display: none!important;
+    }
+
+}
+
+@media (min-width: 577px) {
+  aside.left-panel{
+    width: 200px!important;
+  }
+    .text-desktop-right{
+      text-align: right!important;
+    }
+}
+
+.navbar .navbar-nav li > a .menu-icon{
+  width: 20px!important;
+}
+
+
+.box-male{
+  background-color: #1da3f3!important;
+}
+.box-female{
+  background-color: #ff79f5!important;
+}
+h4{
+  font-family: 'Pridi', serif;
+}
+.font-Pridi{
+  font-family: 'Pridi', serif;
+}
+input.error{
+  border-color: #f00!important;
+}
+label.error{
+  color:#f00!important;
+}
+
+.dataTable td{
+  font-size: 14px;
+}
+.dataTable td span.badge{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.navbar .navbar-nav li.menu-item-has-children .sub-menu {
+    padding-left: 20px!important;
+}
+.hover tr:hover {
+  background-color: #d9d9d9!important;
+}
+.report-table tr:hover{
+  cursor: pointer;
+}
+.dropdown-menu {
+    min-width: 1rem;
+}
+
+
+
+.switch.switch-text .switch-label {
+    border: 1px solid #bababa!important;
+}
+.switch.switch-text .switch-handle {
+    border: 1px solid #d2d2d2!important;
+}
+.switch.switch-text .switch-label::before {
+    color: #9d9d9d!important;
+}
+
+.required::before { 
+    content: "*";
+    color: #ff0000;
+}
+.datepicker{
+  background-color: #fff!important;
+}
+
+@media print {
+   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+   }
+   .col-md-12 {
+        width: 100%;
+   }
+   .col-md-11 {
+        width: 91.66666667%;
+   }
+   .col-md-10 {
+        width: 83.33333333%;
+   }
+   .col-md-9 {
+        width: 75%;
+   }
+   .col-md-8 {
+        width: 66.66666667%;
+   }
+   .col-md-7 {
+        width: 58.33333333%;
+   }
+   .col-md-6 {
+        width: 50%;
+   }
+   .col-md-5 {
+        width: 41.66666667%;
+   }
+   .col-md-4 {
+        width: 33.33333333%;
+   }
+   .col-md-3 {
+        width: 25%;
+   }
+   .col-md-2 {
+        width: 16.66666667%;
+   }
+   .col-md-1 {
+        width: 8.33333333%;
+   }
+}
